@@ -1,0 +1,23 @@
+CTk {
+    title: "w app";
+    geometry: "700x450";
+}
+#button {
+    text: "Hover me imma cool button";
+    hover_color: "#32a871";
+}
+#button:pack {
+    padx: 20;
+    pady: 20;
+}
+entry{
+    height: 40;
+}
+#entry:place {
+    x: 200;
+    y: 140;
+}
+#otherentry:place {
+    x: 10;
+    y: 100;
+}
