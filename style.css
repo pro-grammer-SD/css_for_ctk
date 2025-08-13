@@ -11,8 +11,9 @@ CTk {
     pady: 20;
 }
 entry{
-    height: 40;
+    height: 100;
 }
+
 #entry:place {
     x: 200;
     y: 140;
@@ -20,4 +21,8 @@ entry{
 #otherentry:place {
     x: 10;
     y: 100;
+}
+
+#otherentry{
+    placeholder_text: "A placeholder text";
 }

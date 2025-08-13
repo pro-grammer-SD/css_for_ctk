@@ -8,9 +8,9 @@ with open("style.css", "r") as f:
 class MyApp(customtkinter.CTk):
     def __init__(self):
         super().__init__()
-        self.button = customtkinter.CTkButton(self, text="my button", command=self.button_callback)
-        self.entry = customtkinter.CTkEntry(self, placeholder_text='CTkEntry', width=140, height=28)
-        self.otherentry = customtkinter.CTkEntry(self, placeholder_text='CTkEntry', width=140, height=28)
+        self.button = customtkinter.CTkButton(self)
+        self.entry = customtkinter.CTkEntry(self)
+        self.otherentry = customtkinter.CTkEntry(self)
 
     def button_callback(self):
         print("button clicked")
