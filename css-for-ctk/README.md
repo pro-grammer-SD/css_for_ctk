@@ -1,4 +1,5 @@
 # css_for_ctk
+A library for effortless styling to CTk using the power of CSS 🌟
 
 [![PyPI - Version](https://img.shields.io/pypi/v/css-for-ctk.svg)](https://pypi.org/project/css-for-ctk)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/css-for-ctk.svg)](https://pypi.org/project/css-for-ctk)
