@@ -1,5 +1,5 @@
 import customtkinter
-from apply import apply_styles
+from css_for_ctk.apply import apply_styles
 
 with open("style.css", "r") as f:
     css_data = f.read()

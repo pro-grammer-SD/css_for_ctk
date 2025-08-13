@@ -1,4 +1,4 @@
-from parse import Parser
+from css_for_ctk.parse import Parser
 import re
 
 def apply_styles(data):

@@ -27,9 +27,9 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Documentation = "https://github.com/Soumalya Das/css-for-ctk#readme"
-Issues = "https://github.com/Soumalya Das/css-for-ctk/issues"
-Source = "https://github.com/Soumalya Das/css-for-ctk"
+Documentation = "https://github.com/pro-grammer-SD/css_for_ctk#readme"
+Issues = "https://github.com/pro-grammer-SD/css_for_ctk/issues"
+Source = "https://github.com/pro-grammer-SD/css_for_ctk"
 
 [tool.hatch.version]
 path = "src/css_for_ctk/__about__.py"
