@@ -1,4 +1,10 @@
+import os
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+os.chdir(current_dir)
+
 import customtkinter
+
 from css_for_ctk.apply import apply_styles
 
 with open("style.css", "r") as f:
